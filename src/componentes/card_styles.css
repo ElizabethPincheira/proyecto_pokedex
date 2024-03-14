@@ -5,18 +5,13 @@
 
 
 
-h1 {
-    margin: 20px;
-    color: rgb(55, 55, 55);
-    text-align: start;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-}
 
 .grancontainer {
-    width: 90%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     max-width: 1200px;
-    margin: 0px 20px 0px 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, 170px);
     gap: 10px;

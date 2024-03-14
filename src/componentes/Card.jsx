@@ -1,14 +1,10 @@
 import './card_styles.css'
+import './title_styles.css'
 import poke from '../assets/001.png'
 
 const Card = () => {
     return (
         <>
-            <header>
-                <h1>Pokedex</h1>
-            </header>
-
-
             <article className='grancontainer'>
                 <div className='containercard'>
                     <section className='secciontexto'>
