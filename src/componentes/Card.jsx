@@ -9,18 +9,143 @@ const Card = () => {
             </header>
 
 
-            <article>
-                <section>
-                    <header>
-                        <div><p>#000</p></div>
-                        <div><p>Pokemon</p></div>
-                    </header>
-                    <div className='container'>
-                        <div><p>elemento</p></div>
-                        <img src={poke} className="poke" alt="poke" />
-                    </div>
-                </section>
+            <article className='grancontainer'>
+                <div className='containercard'>
+                    <section className='secciontexto'>
+                        <span className='nombre'>Bulbasaur</span>
+                        <span className='fondotexto'><mark>"  Grass  "</mark></span>
+                        <span className='fondotexto'><mark>"  Poison  "</mark></span>
+                    </section>
+                    <section className='seccionimg'>
+                        <div className='numero'><span>#000</span></div>
+                        <img src={poke} className="imgpoke" alt="poke" />
+                    </section>
+                </div>
+                <div className='containercard'>
+                    <section className='secciontexto'>
+                        <span className='nombre'>Bulbasaur</span>
+                        <span className='fondotexto'><mark>"  Grass  "</mark></span>
+                        <span className='fondotexto'><mark>"  Poison  "</mark></span>
+                    </section>
+                    <section className='seccionimg'>
+                        <div className='numero'><span>#000</span></div>
+                        <img src={poke} className="imgpoke" alt="poke" />
+                    </section>
+                </div>
+                <div className='containercard'>
+                    <section className='secciontexto'>
+                        <span className='nombre'>Bulbasaur</span>
+                        <span className='fondotexto'><mark>"  Grass  "</mark></span>
+                        <span className='fondotexto'><mark>"  Poison  "</mark></span>
+                    </section>
+                    <section className='seccionimg'>
+                        <div className='numero'><span>#000</span></div>
+                        <img src={poke} className="imgpoke" alt="poke" />
+                    </section>
+                </div>
+                <div className='containercard'>
+                    <section className='secciontexto'>
+                        <span className='nombre'>Bulbasaur</span>
+                        <span className='fondotexto'><mark>"  Grass  "</mark></span>
+                        <span className='fondotexto'><mark>"  Poison  "</mark></span>
+                    </section>
+                    <section className='seccionimg'>
+                        <div className='numero'><span>#000</span></div>
+                        <img src={poke} className="imgpoke" alt="poke" />
+                    </section>
+                </div>
+                <div className='containercard'>
+                    <section className='secciontexto'>
+                        <span className='nombre'>Bulbasaur</span>
+                        <span className='fondotexto'><mark>"  Grass  "</mark></span>
+                        <span className='fondotexto'><mark>"  Poison  "</mark></span>
+                    </section>
+                    <section className='seccionimg'>
+                        <div className='numero'><span>#000</span></div>
+                        <img src={poke} className="imgpoke" alt="poke" />
+                    </section>
+                </div>
+                <div className='containercard'>
+                    <section className='secciontexto'>
+                        <span className='nombre'>Bulbasaur</span>
+                        <span className='fondotexto'><mark>"  Grass  "</mark></span>
+                        <span className='fondotexto'><mark>"  Poison  "</mark></span>
+                    </section>
+                    <section className='seccionimg'>
+                        <div className='numero'><span>#000</span></div>
+                        <img src={poke} className="imgpoke" alt="poke" />
+                    </section>
+                </div>
+                <div className='containercard'>
+                    <section className='secciontexto'>
+                        <span className='nombre'>Bulbasaur</span>
+                        <span className='fondotexto'><mark>"  Grass  "</mark></span>
+                        <span className='fondotexto'><mark>"  Poison  "</mark></span>
+                    </section>
+                    <section className='seccionimg'>
+                        <div className='numero'><span>#000</span></div>
+                        <img src={poke} className="imgpoke" alt="poke" />
+                    </section>
+                </div>
+                <div className='containercard'>
+                    <section className='secciontexto'>
+                        <span className='nombre'>Bulbasaur</span>
+                        <span className='fondotexto'><mark>"  Grass  "</mark></span>
+                        <span className='fondotexto'><mark>"  Poison  "</mark></span>
+                    </section>
+                    <section className='seccionimg'>
+                        <div className='numero'><span>#000</span></div>
+                        <img src={poke} className="imgpoke" alt="poke" />
+                    </section>
+                </div>
+                <div className='containercard'>
+                    <section className='secciontexto'>
+                        <span className='nombre'>Bulbasaur</span>
+                        <span className='fondotexto'><mark>"  Grass  "</mark></span>
+                        <span className='fondotexto'><mark>"  Poison  "</mark></span>
+                    </section>
+                    <section className='seccionimg'>
+                        <div className='numero'><span>#000</span></div>
+                        <img src={poke} className="imgpoke" alt="poke" />
+                    </section>
+                </div>
+                <div className='containercard'>
+                    <section className='secciontexto'>
+                        <span className='nombre'>Bulbasaur</span>
+                        <span className='fondotexto'><mark>"  Grass  "</mark></span>
+                        <span className='fondotexto'><mark>"  Poison  "</mark></span>
+                    </section>
+                    <section className='seccionimg'>
+                        <div className='numero'><span>#000</span></div>
+                        <img src={poke} className="imgpoke" alt="poke" />
+                    </section>
+                </div>
+                <div className='containercard'>
+                    <section className='secciontexto'>
+                        <span className='nombre'>Bulbasaur</span>
+                        <span className='fondotexto'><mark>"  Grass  "</mark></span>
+                        <span className='fondotexto'><mark>"  Poison  "</mark></span>
+                    </section>
+                    <section className='seccionimg'>
+                        <div className='numero'><span>#000</span></div>
+                        <img src={poke} className="imgpoke" alt="poke" />
+                    </section>
+                </div>
+                <div className='containercard'>
+                    <section className='secciontexto'>
+                        <span className='nombre'>Bulbasaur</span>
+                        <span className='fondotexto'><mark>"  Grass  "</mark></span>
+                        <span className='fondotexto'><mark>"  Poison  "</mark></span>
+                    </section>
+                    <section className='seccionimg'>
+                        <div className='numero'><span>#000</span></div>
+                        <img src={poke} className="imgpoke" alt="poke" />
+                    </section>
+                </div>
+                
             </article>
+
+            
         </>
     )
 }
