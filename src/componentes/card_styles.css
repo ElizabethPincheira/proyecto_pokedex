@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     display: grid;
     grid-template-columns: repeat(auto-fit, 170px);
     gap: 10px;
@@ -40,7 +40,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.fondotexto mark{
+.fondotexto mark {
     font-size: 0.7em;
     text-align: center;
     color: aliceblue;
@@ -67,13 +67,15 @@
 
 
 
+.containercard {
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
 
-/* ********* */
-
-
-/* @media (min-width: 1200px){
-    .grancontainer{
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-    } 
-} */
+.containercard:hover {
+    box-shadow: 0 8px 8px 0 #a2a2a2, 0 8px 8px 0 #000000;
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    -moz-transform: translate(0px, 5px);
+}
