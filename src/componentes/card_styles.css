@@ -3,10 +3,6 @@
     padding: 0px;
 }
 
-
-
-
-
 .grancontainer {
     display: flex;
     justify-content: center;
@@ -65,8 +61,6 @@
 
 }
 
-
-
 .containercard {
     transition: .5s, color .10s;
     -webkit-transition: .5s, color .10s;
@@ -74,7 +68,7 @@
 }
 
 .containercard:hover {
-    box-shadow: 0 8px 8px 0 #a2a2a2, 0 8px 8px 0 #000000;
+    box-shadow: 0 8px 8px 0 #7aa470, 0 8px 8px 0 #000000;
     transform: translate(0px, 5px);
     -webkit-transform: translate(0px, 5px);
     -moz-transform: translate(0px, 5px);
