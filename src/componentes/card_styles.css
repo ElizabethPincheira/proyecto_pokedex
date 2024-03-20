@@ -11,6 +11,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, 170px);
     gap: 10px;
+    
 }
 
 .containercard {
