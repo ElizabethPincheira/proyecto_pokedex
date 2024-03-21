@@ -4,7 +4,7 @@ import Title from './componentes/Title';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 
-const URL = 'https://pokeapi.co/api/v2/pokemon';
+const URL = 'https://pokeapi.co/api/v2/pokemon?offset=0&limit=151';
 
 function App() {
   const [pokemones, setPokemones] = useState([]);

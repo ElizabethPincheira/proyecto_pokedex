@@ -27,8 +27,9 @@ const Card = ({ id }) => {
             <section className='containercard'>
                 <section className='secciontexto'>
                     <span className='nombre'>{poke?.name}</span>
-                    <span className='fondotexto'><mark>"  Grass  "</mark></span>
-                    <span className='fondotexto'><mark>"  Poison  "</mark></span>
+                    {poke?.types.map((tipo, index) => (
+                        <span key={index} className='fondotexto'><mark>{tipo.type.name}</mark></span>
+                    ))}
                 </section>
                 <section className='seccionimg'>
                     <div className='numero'><span>#000</span></div>
