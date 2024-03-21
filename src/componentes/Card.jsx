@@ -20,12 +20,11 @@ const Card = ({ id }) => {
             });
     }, []);
 
-console.log(poke)
+    console.log(poke)
 
-return (
-    <>
-        <article className='grancontainer'>
-            <div className='containercard'>
+    return (
+        <>
+            <section className='containercard'>
                 <section className='secciontexto'>
                     <span className='nombre'>{poke?.name}</span>
                     <span className='fondotexto'><mark>"  Grass  "</mark></span>
@@ -35,10 +34,9 @@ return (
                     <div className='numero'><span>#000</span></div>
                     <img src={poke?.sprites.front_default} className="imgpoke" alt="poke" />
                 </section>
-            </div>
-        </article>
-    </>
-)
+            </section>
+        </>
+    )
 }
 
 export default Card

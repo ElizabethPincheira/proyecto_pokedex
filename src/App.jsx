@@ -4,7 +4,6 @@ import Title from './componentes/Title';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 
-// aqui llega la url
 const URL = 'https://pokeapi.co/api/v2/pokemon';
 
 function App() {
@@ -20,17 +19,17 @@ function App() {
       });
   }, []);
 
-
-  
   return (
     <>
       <Title />
-      {pokemones.map((pokemon, index) => (
-        <Card key={index} 
-        id = {index+1} />
-      ))}
+      <article className='grancontainer'>
+        {pokemones.map((pokemon, index) => (
+          <Card key={index}
+            id={index + 1} />
+        ))}
+      </article>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
