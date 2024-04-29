@@ -1,31 +1,38 @@
-# Nombre del Proyecto
+# Pokedex App
 
-Breve descripción del proyecto aquí.
+¡Bienvenido a Pokedex App! Esta es una aplicación web desarrollada utilizando Vite y React para proporcionarte una experiencia fluida y receptiva mientras exploras el vasto mundo de Pokémon.
 
-## Instalación
+## Características principales
 
-Clona este repositorio:
+- **Exploración de Pokémon:** Busca y descubre información detallada sobre cientos de Pokémon, incluyendo sus estadísticas, habilidades, tipos y más.
+  
+- **Filtrado:** Utiliza filtros avanzados para encontrar rápidamente Pokémon por tipo, habilidad, y otras características.
+  
+- **Detalle de Pokémon:** Accede a perfiles detallados de cada Pokémon, incluyendo imágenes, descripciones y datos específicos.
+  
+- **Interfaz Intuitiva:** Disfruta de una interfaz de usuario intuitiva y fácil de usar que te permite navegar sin problemas por la aplicación.
 
-```bash
-git clone <url-del-repositorio>
+## Instrucciones de Uso
 
-cd nombre-del-proyecto
-
-yarn install
-
-yarn dev
+1. **Instalación de Dependencias:**
 
 
-nombre-del-proyecto/
-├── public/
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── components/
-│   │   └── ...
-│   ├── App.jsx
-│   └── index.jsx
-├── .gitignore
-├── package.json
-├── README.md
-└── ...
+2. **Iniciar la Aplicación:**
+
+Esto iniciará la aplicación en tu navegador predeterminado. Si no se abre automáticamente, visita `http://localhost:3000` en tu navegador.
+
+## Tecnologías Utilizadas
+
+- **Vite:** Vite es un rápido y simple compilador para aplicaciones web modernas, que hemos utilizado como nuestra herramienta de desarrollo.
+
+- **React:** React es una biblioteca de JavaScript para construir interfaces de usuario, y la hemos utilizado para crear una experiencia interactiva y dinámica en nuestra aplicación.
+
+## Contribuir
+
+¡Agradecemos cualquier contribución para mejorar Pokedex App! Si tienes ideas para nuevas características, encuentras errores, o quieres mejorar el código existente, ¡no dudes en enviar una solicitud de extracción!
+
+## Contacto
+
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros a través de [correo electrónico](mailto:contacto@pokedexapp.com) o en nuestras redes sociales.
+
+¡Esperamos que disfrutes explorando el mundo de Pokémon con Pokedex App!
