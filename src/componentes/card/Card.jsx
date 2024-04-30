@@ -1,5 +1,4 @@
-import './card_styles.css'
-import './title_styles.css'
+import './style.css'
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 

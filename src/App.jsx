@@ -1,35 +1,22 @@
-import './App.css';
-import Card from './componentes/Card';
-import Title from './componentes/Title';
-import axios from 'axios';
-import { useState, useEffect } from 'react';
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Home } from './pages/Home';
+import { PageOneCard } from './pages/PageOneCard';
 
-const URL = 'https://pokeapi.co/api/v2/pokemon?offset=0&limit=151';
 
 function App() {
-  const [pokemones, setPokemones] = useState([]);
-
-  useEffect(() => {
-    axios.get(URL)
-      .then((response) => {
-        setPokemones(response.data.results);
-      })
-      .catch((error) => {
-        console.error('Error fetching data:', error);
-      });
-  }, []);
-
   return (
+
     <>
-      <Title />
-      <article className='grancontainer'>
-        {pokemones.map((pokemon, index) => (
-          <Card key={index}
-            id={index + 1} />
-        ))}
-      </article>
+     <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/pokemon" element={<PageOneCard />}/>
+      </Routes>
+    </BrowserRouter>
     </>
-  )
+   
+  );
 }
 
-export default App
+export default App;
